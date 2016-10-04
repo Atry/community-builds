@@ -274,7 +274,7 @@ build += {
 
   ${vars.base} {
     name: "scalatest"
-    uri: "https://github.com/SethTisue/scalatest.git#3.0.x-community-build"
+    uri: "https://github.com/cheeseng/scalatest.git#build-aggregate-refactor"
     extra: ${vars.base.extra} {
       projects: ["scalatest", "scalactic"]
       run-tests: false // TODO enable tests
