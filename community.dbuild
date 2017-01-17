@@ -959,4 +959,10 @@ build += {
     extra.exclude: ["plugin"]  // we never build sbt plugins
   }
 
+  ${vars.base} {
+    name: "doobie"
+    uri:  ${vars.uris.doobie-uri}
+    extra.exclude: ["bench"]
+  }
+
 ]}
